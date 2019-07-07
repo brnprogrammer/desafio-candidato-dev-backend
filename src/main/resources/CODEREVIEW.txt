@@ -1,0 +1,23 @@
+1 - Code Review
+	Os pacotes não possuem um padrao hierarquico nos nomes por exemplo
+	com.smasset.thcepdetails
+	com.smasset.thcepdetails.factory
+	com.smasset.thcepdetails.service
+	srm.smassset.pojos
+	O que impossibilita executar requisicoes etc...
+	O pacote com nome com.smasset.business possui uma classe que se trata de um @Service.
+	Ao meu ver o nome do pacote não corresponde com oq as classes que pertencem ao mesmo
+	irão fazer.
+	
+	
+
+2 - Healthcheck
+	Existe uma biblioteca que atende a esse requisito que é a actuator
+	Ao iniciarmos a aplicacao podemos consultar o estado da API atravez da URL /actuator
+	Exemplo : localhost:8080/actuator
+	Essa api biblioteca possui demais parametros por exemplo actuator/health que verifica o estado do servico.
+
+4) Implementação de Cache:
+   Podemos ultilizar uma lib do spring, a " spring-boot-starter-cache " onde possui implementacoes de cache default e personalizadas
+   
+	

@@ -1,11 +1,11 @@
-package com.srmasset.business;
+package com.srmasset.thcepdetails.business;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.srmasset.factory.EntityFactory;
+import com.srmasset.thcepdetails.factory.EntityFactory;
 
 @Service
 public class ProcessRuleServices {
